@@ -1,0 +1,105 @@
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Đăng ký</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+        <style type="text/css">
+         
+        .auth-form_heading{
+           
+            font-size: 2.2rem;
+            font-weight: 400;
+            color: var(--text-color);
+        }
+        
+        .auth-form_header{
+            display: flex;
+        }
+        input{
+           
+            margin-bottom: 5px;
+        }
+        .auto-form__container{
+            margin-top: 80px;
+            margin-left: 400px;
+        }
+        
+        .auto-form__container{
+            width: 700px;
+           
+        }
+        .auth-form_input{
+            
+            border-radius: 4px;
+            width: 300px;
+            }
+        .auth-form_form {
+            border: solid;
+            border-color: orange  ;
+    border-radius: 30px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+  
+      
+        
+        </style>
+        <script type="text/javascript">
+        function getDangKy()
+        {
+            var username = document.getElementById("username").value;
+
+            if(username==""){
+                document.getElementById("errorname").innerHTML = "vui lòng nhập tên"
+            }else{
+                document.getElementById("errorname").innerHTML = ""
+            }
+
+        }
+        
+        </script>
+    </head>
+    <body>
+        
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+
+        <div class="auto-form__container">
+            <div class="auth-form_header">
+               <h3 class="auth-form_heading">Đăng ký</h3> 
+            </div>
+            
+                <div class="auth-form_form">
+                    <div class="auth-form_group">
+                        <label type="text">Username:
+                        <input type="text" class="auth-form_input" placeholder="Username" value="" size="30">
+                    </label>
+                    </div>
+                    <div class="auth-form_group">
+                        <label type="text">Password:
+                        <input type="password" class="auth-form_input" placeholder="Password"value="" size="30">
+                        </label>
+                    </div>
+                    <div class="auth-form_group">
+                        <label type="text">Nhập lại password:
+                        <input type="password" class="auth-form_input" placeholder="Nhập lại mật khẩu"value="" size="30">
+                        </label>
+                    </div>
+                    <div class="auth-form_group">
+                        <label type="text">Số điện thoại:
+                        <input type="text" class="auth-form_input" placeholder="Số điện thoại"value="" size="30">
+                        </label>
+                    </div>
+                    <div class="auth-form_group">
+                        <label type="text">Mã xác nhận:
+                        <input type="text" class="auth-form_input" placeholder="Mã Xác nhận"value="" size="30">
+                        </label>
+                    <div class="auth-form_control">
+                        <button class="btn btn-primary">Đăng ký</button>
+                    </div>
+                    </div>
+                </div>
+        </div>
+        
+    </body>
+</html>

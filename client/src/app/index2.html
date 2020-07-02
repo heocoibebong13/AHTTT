@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<!-- saved from url=(0057)http://localhost:8080/ajax-basics-1-exercises/index2.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Bootstrap Example</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="./index2_files/bootstrap.min.css">
+<script src="./index2_files/jquery.min.js.tải xuống"></script>
+<script src="./index2_files/popper.min.js.tải xuống"></script>
+<script src="./index2_files/bootstrap.min.js.tải xuống"></script>
+<script src="./index2_files/a076d05399.js.tải xuống"></script><link rel="stylesheet" href="./index2_files/free.min.css" media="all">
+<style type="text/css">
+.tableicon th {
+	padding-right: 25px;
+	padding-bottom: 15px;
+	padding-top: 15px;
+}
+
+input[type=text] {
+	border-radius: 10px;
+	width: 70%;
+}
+
+.trangchuchinh {
+	padding-left: 10px;
+}
+
+.trangchu {
+	color: blue;
+}
+
+.fa-house-user {
+	color: blue;
+}
+
+.col-sm-8 b {
+	padding-left: 10px
+}
+
+button {
+	background: white;
+}
+
+.category {
+	width: 100%;
+}
+
+.category th {
+	color: blue;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+.list {
+	margin-top: 20px;
+	width: 100%;
+}
+
+.btdang {
+	padding-right: 20px
+}
+
+.listfood img {
+	width: 200px;;
+	height: 150px;
+	border-radius: 5px;
+}
+
+.listfoods img {
+	width: 200px;;
+	height: 150px;
+	border-radius: 5px;
+}
+
+.list table {
+	border: 1px solid lightgray;
+}
+
+.listfoods th, td {
+	padding-bottom: 5px;
+	padding-top: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.listfoods td {
+	border-bottom: 1px solid lightgray;
+}
+
+.list td {
+	font-size: 14px;
+}
+
+.row {
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+.search th, td {
+	padding: 5px 5px 5px 5px;
+}
+</style>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-2">
+				<img src="./index2_files/tinngan-122719-857098201-4-1591587968.jpg" alt="Trulli" width="50" height="50"><table class="tableicon">
+					<tbody><tr>
+						
+					</tr>
+					<tr>
+						<th style="padding-right: 10px;"><i class="fas fa-house-user" style="font-size: 20px" aria-hidden="true"></i></th>
+						<th class="trangchu">Trang chủ</th>
+					</tr>
+					<tr>
+						<th><i class="far fa-bell" style="font-size: 20px" aria-hidden="true"></i></th>
+						<th>Thông báo</th>
+					</tr>
+					<tr>
+						<th><i class="far fa-list-alt" style="font-size: 20px" aria-hidden="true"></i></th>
+						<th>Danh sách</th>
+					</tr>
+					<tr>
+						<th><i class="far fa-user" style="font-size: 20px" aria-hidden="true"></i></th>
+						<th>Hồ sơ</th>
+					</tr>
+					<tr>
+						<th><i class="fab fa-creative-commons-nd" style="font-size: 20px" aria-hidden="true"></i></th>
+						<th>Xem thêm</th>
+					</tr>
+				</tbody></table>
+			</div>
+			<div class="col-sm-8">
+
+				<div align="left">
+					<b> Trang chủ</b>
+					<form action="http://localhost:8080/ajax-basics-1-exercises/index2.html">
+						<i class="fa fa-user-circle" style="font-size: 15px" aria-hidden="true"></i> <input type="text" placeholder="Bạn có điều gì muốn chia sẻ??">
+
+					</form>
+					<div align="left">
+						<button>
+							<i class="fa fa-picture-o" aria-hidden="true"></i>
+						</button>
+						<button>
+							<i class="fa fa-video-camera" aria-hidden="true"></i>
+						</button>
+						<button>
+							<i class="fa fa-map-marker" aria-hidden="true"></i>
+						</button>
+						<button>
+							<i class="fa fa-calendar" aria-hidden="true"></i>
+						</button>
+						<button class="btdang" style="color: blue;">Đăng</button>
+
+					</div>
+				</div>
+
+				<div class="list">
+					<div class="row">
+						<div class="col-sm-4">
+							<table class="listfoods ">
+								<tbody>
+									<tr>
+										<th colspan="2"><img src="./index2_files/h1.jpg" alt="Chania"></th>
+									</tr>
+									<tr>
+										<th colspan="2">Du lịch biển mộng Phan Thiết</th>
+									</tr>
+									<tr class="active">
+										<td><i class="fa fa-calendar" style="font-size: 14px" aria-hidden="true"></i>
+											19/12/2019</td>
+										<td><i class="fa fa-eye" style="font-size: 14px" aria-hidden="true"></i>
+											12298</td>
+									</tr>
+									<tr>
+										<td colspan="2">Bãi biển xanh mát với hàng dừa xanh<a href="http://localhost:8080/ajax-basics-1-exercises/index2.html">Xem thêm</a>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<div class="col-sm-4">
+							<table class="listfoods  ">
+								<tbody>
+									<tr>
+										<th colspan="2"><img src="./index2_files/h2.jpg" alt="Chania"></th>
+									</tr>
+									<tr>
+										<th colspan="2">Bãi biển Cửa Lò</th>
+									</tr>
+									<tr class="active">
+										<td><i class="fa fa-calendar" style="font-size: 14px" aria-hidden="true"></i>
+											19/12/2019</td>
+										<td><i class="fa fa-eye" style="font-size: 14px" aria-hidden="true"></i>
+											12298</td>
+									</tr>
+									<tr>
+										<td colspan="2">Địa điểm nổi tiếng, chỉ mất 2h đồng hồ di
+											chuyển từ Hà Nội...<a href="http://localhost:8080/ajax-basics-1-exercises/index2.html">Xem thêm</a>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<div class="col-sm-4">
+							<table class="listfoods">
+								<tbody>
+									<tr>
+										<th colspan="2"><img src="./index2_files/h3.jpg" alt="Chania"></th>
+									</tr>
+									<tr>
+										<th colspan="2">Bãi biển Nha Trang</th>
+									</tr>
+									<tr class="active">
+										<td><i class="fa fa-calendar" style="font-size: 14px" aria-hidden="true"></i>
+											19/12/2019</td>
+										<td><i class="fa fa-eye" style="font-size: 14px" aria-hidden="true"></i>
+											12298</td>
+									</tr>
+									<tr>
+										<td colspan="2">Với nhiều trò chơi dưới biển hấp dẫn du
+											khách, Nha Trang là điềm đến thú vị...<a href="http://localhost:8080/ajax-basics-1-exercises/index2.html">Xem thêm</a>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-4">
+							<table class="table table-bordered, listfood ">
+								<tbody>
+									<tr>
+										<th colspan="2"><img src="./index2_files/h4.jpg" alt="Chania"></th>
+									</tr>
+									<tr>
+										<th colspan="2">Thức ăn ngon nức tiếng Cà Mau</th>
+									</tr>
+									<tr class="active">
+										<td><i class="fa fa-calendar" style="font-size: 14px" aria-hidden="true"></i>
+											19/12/2019</td>
+										<td><i class="fa fa-eye" style="font-size: 14px" aria-hidden="true"></i>
+											12298</td>
+									</tr>
+									<tr>
+										<td colspan="2">Đến với Cà Mau đừng quên gỏi cuốn thịt luộc...<a href="http://localhost:8080/ajax-basics-1-exercises/index2.html">Xem thêm</a>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<div class="col-sm-4">
+							<table class="table table-bordered, listfood ">
+								<tbody>
+									<tr>
+										<th colspan="2"><img src="./index2_files/h5.jpg" alt="Chania"></th>
+									</tr>
+									<tr>
+										<th colspan="2">Thức ăn ngon nức tiếng Cà Mau</th>
+									</tr>
+									<tr class="active">
+										<td><i class="fa fa-calendar" style="font-size: 14px" aria-hidden="true"></i>
+											19/12/2019</td>
+										<td><i class="fa fa-eye" style="font-size: 14px" aria-hidden="true"></i>
+											12298</td>
+									</tr>
+									<tr>
+										<td colspan="2">Đúng như tên của nó, lẩu mắm được chế
+											biến từ mắm, đặc sản xứ này...<a href="http://localhost:8080/ajax-basics-1-exercises/index2.html">Xem thêm</a>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<div class="col-sm-4">
+							<table class="table table-bordered, listfood ">
+								<tbody>
+									<tr>
+										<th colspan="2"><img src="./index2_files/h6.jpg" alt="Chania"></th>
+									</tr>
+									<tr>
+										<th colspan="2">Du lịch nghỉ dưỡng tại Vũng Tàu</th>
+									</tr>
+									<tr class="active">
+										<td><i class="fa fa-calendar" style="font-size: 14px" aria-hidden="true"></i>
+											19/12/2019</td>
+										<td><i class="fa fa-eye" style="font-size: 14px" aria-hidden="true"></i>
+											12298</td>
+									</tr>
+									<tr>
+										<td colspan="2">Chỉ mất 2h đồng hồ di chuyển từ TP HCM bằng xe máy thì bạn có thể nghỉ dưỡng tại nơi này...<a href="http://localhost:8080/ajax-basics-1-exercises/index2.html">Xem thêm</a>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="col-sm-2">
+				<div align="center">
+					<form action="http://localhost:8080/ajax-basics-1-exercises/index2.html">
+						<button>
+							<i class="fas fa-search" style="font-size: 15px" aria-hidden="true"></i>
+						</button>
+						<input type="text" placeholder="Tìm kiếm">
+					</form>
+				</div>
+				<div style="border: 1px solid lightgray; border-radius: 5px; width: 130%; margin-top: 20px">
+
+					<table class="search" style="width: 100%;">
+
+						<tbody><tr>
+							<th colspan="2" style="border-bottom: 1px solid lightgray; font-size: 20px;">Gợi
+								ý theo dõi</th>
+						</tr><tr>
+							<td><i class="fa fa-user-circle" style="font-size: 15px" aria-hidden="true"></i>
+								<b>ShirlyWang</b>
+								<button style="color: blue">Theo dõi</button> <br> @Shirly
+								Wang</td>
+
+						</tr>
+						<tr>
+							<td><i class="fa fa-user-circle" style="font-size: 15px" aria-hidden="true"></i>
+								<b>B_Nhi12345</b>
+								<button style="color: blue">Theo dõi</button> <br>
+								@nhichodien0989</td>
+						</tr>
+						<tr>
+							<td><i class="fa fa-user-circle" style="font-size: 15px" aria-hidden="true"></i>
+								<b>Quỳnh Tiên</b>
+								<button style="color: blue">Theo dõi</button> <br>
+								@tienheomap5645</td>
+
+						</tr>
+						<tr>
+							<td><a href="http://localhost:8080/ajax-basics-1-exercises/index2.html">Hiển thị thêm</a></td>
+						</tr>
+
+
+
+					</tbody></table>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+</body></html>

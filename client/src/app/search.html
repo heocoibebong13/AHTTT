@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Bootstrap Example</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script
+	src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+<style type="text/css">
+.tableicon th {
+	padding-right: 25px;
+	padding-bottom: 15px;
+	padding-top: 15px;
+}
+
+input[type=text] {
+	border-radius: 10px;
+	width: 70%;
+}
+
+button {
+	background: white;
+}
+
+.category {
+	width: 100%;
+}
+
+.category th {
+	color: blue;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+.list {
+	margin-top: 20px;
+	width: 100%;
+}
+
+.listfood img {
+	width: 200px;;
+	height: 150px;
+	border-radius: 5px;
+}
+
+.listfoods img {
+	width: 200px;;
+	height: 150px;
+	border-radius: 5px;
+}
+
+.list table {
+	border: 1px solid lightgray;
+}
+
+.listfoods th,td {
+	padding-bottom: 5px;
+	padding-top: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.listfoods td {
+	border-bottom: 1px solid lightgray;
+}
+
+.list td {
+	font-size: 14px;
+}
+
+.row {
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+.search th,td {
+	padding: 5px 5px 5px 5px;
+}
+</style>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-2">
+				<table class="tableicon">
+					<tr>
+						<th style="padding-right: 10px;"><i class='fas fa-house-user'
+							style='font-size: 20px'></i></th>
+						<th>Trang chủ</th>
+					</tr>
+					<tr>
+						<th><i class='far fa-bell' style='font-size: 20px'></i></th>
+						<th>Thông báo</th>
+					</tr>
+					<tr>
+						<th><i class='far fa-list-alt' style='font-size: 20px'></i></th>
+						<th>Danh sách</th>
+					</tr>
+					<tr>
+						<th><i class='far fa-user' style='font-size: 20px'></i></th>
+						<th>Hồ sơ</th>
+					</tr>
+					<tr>
+						<th><i class='fab fa-creative-commons-nd'
+							style='font-size: 20px'></i></th>
+						<th>Xem thêm</th>
+					</tr>
+				</table>
+			</div>
+			<div class="col-sm-8">
+				<div align="center">
+					<form action="">
+						<button>
+							<i class='fas fa-search' style='font-size: 15px'></i>
+						</button>
+						<input type="text">
+					</form>
+				</div>
+				<table class="category">
+					<tr>
+						<th>Ẩm thực</th>
+						<th>Du lịch biển</th>
+						<th>Văn hóa</th>
+						<th>Lễ hội sụ kiện</th>
+					</tr>
+					<tr>
+						<th>Nghĩ dưỡng</th>
+						<th>Cảnh đẹp</th>
+						<th>Du lịch cộng đồng</th>
+						<th>Khám phá</th>
+					</tr>
+				</table>
+				<div class="list">
+					<div class="row">
+						<div class="col-sm-4">
+							<table class="listfoods ">
+								<tbody>
+									<tr>
+										<th colspan="2"><img src="img/moan1.jpg" alt="Chania"></th>
+									</tr>
+									<tr>
+										<th colspan="2">Thức ăn ngon nức tiếng Cà Mau</th>
+									</tr>
+									<tr class="active">
+										<td><i class="fa fa-calendar" style="font-size: 14px"></i>
+											19/12/2019</td>
+										<td><i class="fa fa-eye" style="font-size: 14px"></i>
+											12298</td>
+									</tr>
+									<tr>
+										<td colspan="2">Đúng như tên của nó, lẩu mắm được chế
+											biến từ mắm, đặc sản xứ này...<a href="">Xem thêm</a>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<div class="col-sm-4">
+							<table class="listfoods  ">
+								<tbody>
+									<tr>
+										<th colspan="2"><img src="img/monan2.jpg" alt="Chania"></th>
+									</tr>
+									<tr>
+										<th colspan="2">Thức ăn ngon nức tiếng Cà Mau</th>
+									</tr>
+									<tr class="active">
+										<td><i class="fa fa-calendar" style="font-size: 14px"></i>
+											19/12/2019</td>
+										<td><i class="fa fa-eye" style="font-size: 14px"></i>
+											12298</td>
+									</tr>
+									<tr>
+										<td colspan="2">Đúng như tên của nó, lẩu mắm được chế
+											biến từ mắm, đặc sản xứ này...<a href="">Xem thêm</a>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<div class="col-sm-4">
+							<table class="listfoods">
+								<tbody>
+									<tr>
+										<th colspan="2"><img src="img/monan3.jpg" alt="Chania"></th>
+									</tr>
+									<tr>
+										<th colspan="2">Thức ăn ngon nức tiếng Cà Mau</th>
+									</tr>
+									<tr class="active">
+										<td><i class="fa fa-calendar" style="font-size: 14px"></i>
+											19/12/2019</td>
+										<td><i class="fa fa-eye" style="font-size: 14px"></i>
+											12298</td>
+									</tr>
+									<tr>
+										<td colspan="2">Đúng như tên của nó, lẩu mắm được chế
+											biến từ mắm, đặc sản xứ này...<a href="">Xem thêm</a>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-4">
+							<table class="table table-bordered, listfood ">
+								<tbody>
+									<tr>
+										<th colspan="2"><img src="img/moan1.jpg" alt="Chania"></th>
+									</tr>
+									<tr>
+										<th colspan="2">Thức ăn ngon nức tiếng Cà Mau</th>
+									</tr>
+									<tr class="active">
+										<td><i class="fa fa-calendar" style="font-size: 14px"></i>
+											19/12/2019</td>
+										<td><i class="fa fa-eye" style="font-size: 14px"></i>
+											12298</td>
+									</tr>
+									<tr>
+										<td colspan="2">Đúng như tên của nó, lẩu mắm được chế
+											biến từ mắm, đặc sản xứ này...<a href="">Xem thêm</a>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<div class="col-sm-4">
+							<table class="table table-bordered, listfood ">
+								<tbody>
+									<tr>
+										<th colspan="2"><img src="img/monan2.jpg" alt="Chania"></th>
+									</tr>
+									<tr>
+										<th colspan="2">Thức ăn ngon nức tiếng Cà Mau</th>
+									</tr>
+									<tr class="active">
+										<td><i class="fa fa-calendar" style="font-size: 14px"></i>
+											19/12/2019</td>
+										<td><i class="fa fa-eye" style="font-size: 14px"></i>
+											12298</td>
+									</tr>
+									<tr>
+										<td colspan="2">Đúng như tên của nó, lẩu mắm được chế
+											biến từ mắm, đặc sản xứ này...<a href="">Xem thêm</a>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<div class="col-sm-4">
+							<table class="table table-bordered, listfood ">
+								<tbody>
+									<tr>
+										<th colspan="2"><img src="img/monan3.jpg" alt="Chania"></th>
+									</tr>
+									<tr>
+										<th colspan="2">Thức ăn ngon nức tiếng Cà Mau</th>
+									</tr>
+									<tr class="active">
+										<td><i class="fa fa-calendar" style="font-size: 14px"></i>
+											19/12/2019</td>
+										<td><i class="fa fa-eye" style="font-size: 14px"></i>
+											12298</td>
+									</tr>
+									<tr>
+										<td colspan="2">Đúng như tên của nó, lẩu mắm được chế
+											biến từ mắm, đặc sản xứ này...<a href="">Xem thêm</a>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</div>
+
+			</div>
+			<div class="col-sm-2">
+				<div style="border: 1px solid lightgray;border-radius:5px;width: 130%; margin-top: 20px ">
+					<table class="search" style="width: 100%;">
+						<tr>
+							<th colspan="2"
+								style="border-bottom: 1px solid lightgray; font-size: 20px;">Bộ
+								lọc tìm kiếm</th>
+						</tr>
+						<tr>
+							<th colspan="2">Mọi người</th>
+						</tr>
+						<tr>
+							<td>Từ bất kì ai</td>
+							<td><input type="radio"></td>
+						</tr>
+						<tr>
+							<td>Người bạn theo dõi</td>
+							<td><input type="radio"></td>
+						</tr>
+						<tr>
+							<th colspan="2">Vị trí</th>
+						</tr>
+						<tr>
+							<td>Mọi nơi</td>
+							<td><input type="radio"></td>
+
+						</tr>
+						<tr>
+							<td>Gần bạn</td>
+							<td><input type="radio"></td>
+
+						</tr>
+						<tr>
+							<th colspan="2"
+								style="border-top: 1px solid lightgray;"><a href="">Tìm
+								kiếm nâng cao</a></th>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>

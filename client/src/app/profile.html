@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Trang cá nhân</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<style>
+.avatar {
+	vertical-align: middle;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: absolute;
+	top: 250px;
+	left: 0px;
+	border: 1px green solid;
+}
+
+.cover {
+	position: relative;
+	height: 300px;
+	top: 0;
+	left: 0;
+	border: 1px red solid;
+}
+
+.parent {
+	position: relative;
+	top: 0;
+	left: 0;
+}
+.sub{
+    padding-top:50px;
+}
+</style>
+</head>
+<body>
+	<div class="container-fluid">
+		<h2>New feed</h2>
+		<div class="row">
+			<div class="col-sm-3 col-md-6 col-lg-2" style="">
+				<button type="button"
+					class="btn btn-default btn-lg btn-block">Trang chủ</button>
+				<button type="button" class="btn btn-default btn-lg btn-block">Thông
+					báo</button>
+				<button type="button" class="btn btn-default btn-lg btn-block">Danh
+					sách</button>
+				<button type="button" class="btn btn-default btn-lg btn-block active">Hồ
+					sơ</button>
+				<div class="dropdown">
+					<button class="btn btn-default btn-lg dropdown-toggle btn-block"
+						type="button" data-toggle="dropdown">
+						Thêm <span class="caret"></span>
+					</button>
+					<ul class="dropdown-menu">
+						<li><a href="#">??????</a></li>
+						<li><a href="#">??????</a></li>
+						<li><a href="#">??????</a></li>
+						<li class="divider"></li>
+						<li><a href="#">??????</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-sm-9 col-md-6 col-lg-7" style="">
+				<div class='parent'>
+					<img src="https://www.shutterstock.com/blog/wp-content/uploads/sites/5/2017/08/facebook-cover.jpg" alt="Avatar" class="cover"> 
+					<img src="https://www.w3schools.com/howto/img_avatar.png" alt="Avatar" class="avatar">
+				</div>
+				<div style="padding-left:600px; padding-top:30px;">
+				<a href="" class="btn btn-primary"
+                        role="button">Chỉnh sửa hồ sơ</a>
+				</div>
+				<div>
+				<p>Nguyen Ton Man</p>
+				<p>@BlueRulesOn</p>
+				<p>Đã tham gia tháng 8 năm 2018</p>
+				<div>
+				<span>1 Theo dõi</span>
+				<span>0 Người theo dõi</span>
+				</div>
+				</div>
+			</div>
+			<div class="col-sm-9 col-md-6 col-lg-3" style="">
+				<!-- Search form -->
+				<form class="form-inline">
+					<input class="form-control" type="text" placeholder="Search"
+						aria-label="Search"> <a href="" class="btn btn-primary"
+						role="button">Search</a>
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
